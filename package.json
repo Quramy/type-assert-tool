@@ -1,0 +1,26 @@
+{
+  "name": "type-assert-tool",
+  "version": "1.0.0",
+  "description": "TypeScript type assertion utility",
+  "main": "index.js",
+  "types": "index.ts",
+  "scripts": {
+    "test": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quramy/type-assert-tool.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Quramy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Quramy/type-assert-tool/issues"
+  },
+  "homepage": "https://github.com/Quramy/type-assert-tool#readme",
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  }
+}
