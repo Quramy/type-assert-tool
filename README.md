@@ -49,5 +49,14 @@ Test equality between type `Actual` and type `Expected` . Only if succeeded, thi
 ### `AssertSub<Actual, Expected>`
 Test whether type `Actual` type is a sub type of type `Expected` . Only if succeeded, this type returns type `AssertSuccess` .
 
+## Motivation
+TypeScript's type arithmetic capabilities are amazing. It has powerful features such as Mapped Types, Conditional Types, Recursive Types, and Template Literal Types.
+
+I needed a way to make sure that the composite types I created using these features would work as expected. I created this utility because I wanted to write tests for composite types in the same way I write unit tests for functions.
+
+## Similar repositories
+
+- [ts-expect](https://github.com/TypeStrong/ts-expect) provides function to assert type of your "values".
+
 ## License
 MIT
